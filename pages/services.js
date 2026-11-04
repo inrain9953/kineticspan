@@ -198,7 +198,7 @@ const ServicesPage = () => {
                 </a>
 
                 <a
-                  href='/contact'
+                  href='/contact-us'
                   className='inline-flex items-center gap-2 px-5 py-4 text-sm font-semibold text-[#0B3C4A] transition-colors hover:text-[#1E8A95]'
                 >
                   Talk to our team
