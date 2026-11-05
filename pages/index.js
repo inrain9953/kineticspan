@@ -68,7 +68,7 @@ const services = [
   [
     '/new-technology-based-rainwater.jpg',
     'Rainwater Harvesting for Industries',
-    'industrial-rwh-consulting',
+    'rainwater-harvesting-for-industries',
     'Not ready to build yet? Start with advice. We review how your site uses water, explain which regulations apply, and prepare a feasibility report or design brief you can take to your board, your auditor or even another contractor. We’d rather you decide with good information than rush.'
   ]
 ]
