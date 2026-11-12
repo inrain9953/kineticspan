@@ -1,4 +1,3 @@
-
 const BASE_URL = 'https://www.kineticspan.com'
 const weekTemp = new Date()
 weekTemp.setDate(weekTemp.getDate() - 7)
@@ -15,7 +14,7 @@ function generateSiteMap () {
     '/contact-us',
     '/services',
     '/rainwater-harvesting-for-industries',
-    // '/rainwater-harvesting-tank',
+    '/rainwater-harvesting-systems'
     // '/modular-rainwater-harvesting-system',
     // '/rooftop-rainwater-harvesting',
     // '/polymer-type-rainwater-harvesting-system',
@@ -38,102 +37,102 @@ function generateSiteMap () {
     .join('')
 
   // Rainwater Harvesting System Location Dynamic pages
-//   const RainwaterHarvestingSystemLocation = CityData.map(
-//     city => `
-//       <url>
-//         <loc>
-//           ${BASE_URL}/rainwater-harvesting-system/${city.slug}
-//         </loc>
-//         <lastmod>${daily}</lastmod>
-//         <changefreq>daily</changefreq>
-//         <priority>0.75</priority>
-//       </url>
-//     `
-//   ).join('')
+  //   const RainwaterHarvestingSystemLocation = CityData.map(
+  //     city => `
+  //       <url>
+  //         <loc>
+  //           ${BASE_URL}/rainwater-harvesting-system/${city.slug}
+  //         </loc>
+  //         <lastmod>${daily}</lastmod>
+  //         <changefreq>daily</changefreq>
+  //         <priority>0.75</priority>
+  //       </url>
+  //     `
+  //   ).join('')
 
-//   // Rainwater Harvesting Tank Location Dynamic pages
-//   const RainwaterHarvestingTankLocation = CityData.map(
-//     city => `
-//       <url>
-//         <loc>
-//           ${BASE_URL}/rainwater-harvesting-tank/${city.slug}
-//         </loc>
-//         <lastmod>${daily}</lastmod>
-//         <changefreq>daily</changefreq>
-//         <priority>0.75</priority>
-//       </url>
-//     `
-//   ).join('')
+  //   // Rainwater Harvesting Tank Location Dynamic pages
+  //   const RainwaterHarvestingTankLocation = CityData.map(
+  //     city => `
+  //       <url>
+  //         <loc>
+  //           ${BASE_URL}/rainwater-harvesting-tank/${city.slug}
+  //         </loc>
+  //         <lastmod>${daily}</lastmod>
+  //         <changefreq>daily</changefreq>
+  //         <priority>0.75</priority>
+  //       </url>
+  //     `
+  //   ).join('')
 
-//   // Modular Rainwater Harvesting System Location Dynamic pages
-//   const ModularRWHSytemLocation = CityData.map(
-//     city => `
-//       <url>
-//         <loc>
-//           ${BASE_URL}/modular-rainwater-harvesting-system/${city.slug}
-//         </loc>
-//         <lastmod>${daily}</lastmod>
-//         <changefreq>daily</changefreq>
-//         <priority>0.75</priority>
-//       </url>
-//     `
-//   ).join('')
+  //   // Modular Rainwater Harvesting System Location Dynamic pages
+  //   const ModularRWHSytemLocation = CityData.map(
+  //     city => `
+  //       <url>
+  //         <loc>
+  //           ${BASE_URL}/modular-rainwater-harvesting-system/${city.slug}
+  //         </loc>
+  //         <lastmod>${daily}</lastmod>
+  //         <changefreq>daily</changefreq>
+  //         <priority>0.75</priority>
+  //       </url>
+  //     `
+  //   ).join('')
 
-//   // Rooftop Rainwater Harvesting Location Dynamic pages
-//   const RooftopRWH = CityData.map(
-//     city => `
-//       <url>
-//         <loc>
-//           ${BASE_URL}/rooftop-rainwater-harvesting/${city.slug}
-//         </loc>
-//         <lastmod>${daily}</lastmod>
-//         <changefreq>daily</changefreq>
-//         <priority>0.75</priority>
-//       </url>
-//     `
-//   ).join('')
+  //   // Rooftop Rainwater Harvesting Location Dynamic pages
+  //   const RooftopRWH = CityData.map(
+  //     city => `
+  //       <url>
+  //         <loc>
+  //           ${BASE_URL}/rooftop-rainwater-harvesting/${city.slug}
+  //         </loc>
+  //         <lastmod>${daily}</lastmod>
+  //         <changefreq>daily</changefreq>
+  //         <priority>0.75</priority>
+  //       </url>
+  //     `
+  //   ).join('')
 
-//   // Polymer Type Rainwater Harvesting System Location Dynamic pages
-//   const PolymerTypeRWHSystem = CityData.map(
-//     city => `
-//       <url>
-//         <loc>
-//           ${BASE_URL}/polymer-type-rainwater-harvesting-system/${city.slug}
-//         </loc>
-//         <lastmod>${daily}</lastmod>
-//         <changefreq>daily</changefreq>
-//         <priority>0.75</priority>
-//       </url>
-//     `
-//   ).join('')
+  //   // Polymer Type Rainwater Harvesting System Location Dynamic pages
+  //   const PolymerTypeRWHSystem = CityData.map(
+  //     city => `
+  //       <url>
+  //         <loc>
+  //           ${BASE_URL}/polymer-type-rainwater-harvesting-system/${city.slug}
+  //         </loc>
+  //         <lastmod>${daily}</lastmod>
+  //         <changefreq>daily</changefreq>
+  //         <priority>0.75</priority>
+  //       </url>
+  //     `
+  //   ).join('')
 
-//   // Storm Water Management Company Location Dynamic pages
-//   const StormWaterManagementCompany = CityData.map(
-//     city => `
-//       <url>
-//         <loc>
-//           ${BASE_URL}/storm-water-management-company/${city.slug}
-//         </loc>
-//         <lastmod>${daily}</lastmod>
-//         <changefreq>daily</changefreq>
-//         <priority>0.75</priority>
-//       </url>
-//     `
-//   ).join('')
+  //   // Storm Water Management Company Location Dynamic pages
+  //   const StormWaterManagementCompany = CityData.map(
+  //     city => `
+  //       <url>
+  //         <loc>
+  //           ${BASE_URL}/storm-water-management-company/${city.slug}
+  //         </loc>
+  //         <lastmod>${daily}</lastmod>
+  //         <changefreq>daily</changefreq>
+  //         <priority>0.75</priority>
+  //       </url>
+  //     `
+  //   ).join('')
 
-//   // New Technology of Rainwater Harvesting Location Dynamic pages
-//   const NewTechnologyOfRWH = CityData.map(
-//     city => `
-//       <url>
-//         <loc>
-//           ${BASE_URL}/new-technology-of-rainwater-harvesting/${city.slug}
-//         </loc>
-//         <lastmod>${daily}</lastmod>
-//         <changefreq>daily</changefreq>
-//         <priority>0.75</priority>
-//       </url>
-//     `
-//   ).join('')
+  //   // New Technology of Rainwater Harvesting Location Dynamic pages
+  //   const NewTechnologyOfRWH = CityData.map(
+  //     city => `
+  //       <url>
+  //         <loc>
+  //           ${BASE_URL}/new-technology-of-rainwater-harvesting/${city.slug}
+  //         </loc>
+  //         <lastmod>${daily}</lastmod>
+  //         <changefreq>daily</changefreq>
+  //         <priority>0.75</priority>
+  //       </url>
+  //     `
+  //   ).join('')
 
   return `<?xml version="1.0" encoding="UTF-8"?>
   <urlset

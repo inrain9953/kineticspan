@@ -1,17 +1,17 @@
-import mongoose from 'mongoose';
+import mongoose from 'mongoose'
 
-const connection = {}; // Cache the connection
+const connection = {} // Cache the connection
 
-export async function connectToDatabase() {
+export default async function connectToDatabase () {
   if (connection.isConnected) {
     // Use the cached connection if available
-    return connection;
+    return connection
   }
 
   const db = await mongoose.connect(process.env.url, {
     useNewUrlParser: true,
-    useUnifiedTopology: true,
-  });
+    useUnifiedTopology: true
+  })
 
-  connection.isConnected = db.connections[0].readyState;
+  connection.isConnected = db.connections[0].readyState
 }

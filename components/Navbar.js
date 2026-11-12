@@ -20,7 +20,7 @@ export default function Navbar () {
 
   return (
     <header className='fixed w-full top-5 z-50 p-2 *:backdrop-blur-sm'>
-      <div className='mx-auto flex max-w-6xl items-center justify-between px-6 py-2 rounded-full bg-amber-50/50'>
+      <div className='mx-auto flex max-w-6xl items-center justify-between px-6 py-2 rounded-full bg-[#aae8e57f]'>
         <a
           href='/'
           className={`flex items-center gap-1 text-xl font-extrabold text-[#10303A] ${focus}`}

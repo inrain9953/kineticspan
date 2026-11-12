@@ -5,7 +5,7 @@ import { DISPLAY, RING_DARK, NAV_LINKS } from './UI'
 export default function Footer () {
   const links = [...NAV_LINKS, ['Contact Us', '/contact-us']]
   return (
-    <footer className='bg-[#3e4c41] pb-9 pt-12 text-base text-[#d7e8ea]'>
+    <footer className='text-[#073441] border-t pb-9 pt-12 text-base bg-[#86cdcafb]'>
       <div className='mx-auto max-w-[1120px] px-6'>
         <Image
           src='/kineticSpan.svg'
