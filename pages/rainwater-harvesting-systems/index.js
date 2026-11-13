@@ -197,7 +197,7 @@ export default function RainwaterHarvestingSystem () {
 
             <div className='relative mx-auto grid max-w-7xl lg:grid-cols-[1.05fr_0.95fr]'>
               {/* Hero copy */}
-              <div className='px-6 pt-28 lg:px-12'>
+              <div className='px-6 pt-32 lg:px-12'>
                 <p className='mb-6 flex items-center gap-3 text-xs font-bold uppercase tracking-[0.22em] text-[#1E8A95]'>
                   <span className='h-px w-10 bg-[#1E8A95]' />
                   Industrial Infrastructure

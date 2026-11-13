@@ -28,12 +28,12 @@ const steps = [
 const contactDetails = [
   {
     title: 'Phone',
-    value: '[phone number]',
+    value: '9910236670',
     icon: 'phone'
   },
   {
     title: 'Email',
-    value: '[email address]',
+    value: 'contact@kineticspan.com',
     icon: 'mail'
   },
   {
